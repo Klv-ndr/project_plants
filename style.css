@@ -1,1 +1,8 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+.sup-header {
+  height: 60px;
+  background-color: #0C4B35;
+}/*# sourceMappingURL=style.css.map */
