@@ -105,7 +105,7 @@
   display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1200px) {
   * {
     box-sizing: border-box;
   }
@@ -118,7 +118,7 @@
     flex-direction: column;
   }
   .conteiner {
-    max-width: 375px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
