@@ -109,6 +109,19 @@
 .btn-laptop-call {
     display: block;
 }
+.mobile-btn-call-us {
+    display: flex;
+}
+.img-menu-mobile {
+    display: none;
+    margin-left: 20px;
+}
 .btn-mobile-call {
     display: none;
+    height: 34px;
+    width: 40px;
+    background-color: #00730C;
+    border: none;
+    border-radius: 5px;
 }
+
