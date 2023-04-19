@@ -78,8 +78,28 @@
 .menu a:hover {
     color: #00730C;
 }
-
-
+.btn-flex {
+    display: flex;
+    justify-content: center;
+}
+.btn-laptop-call {
+    display: block;
+    height: 50px;
+    width: 170px;
+    background-color: #00730C;
+    border: none;
+    border-radius: 5px;
+}
+.btn-laptop-call a {
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 10px;
+}
 
 
 .btn-call-us {

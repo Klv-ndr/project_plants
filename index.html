@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:wght@100;300;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
@@ -100,11 +100,13 @@
               </div>
             </div>
             <div class="btn-call-us">
-              <img
-                class="btn-laptop-call"
-                src="images/call-Button.svg"
-                alt="call-btn"
-              />
+              <button class="btn-laptop-call">
+                <div class="btn-flex">
+                  <img src="images/call-us.svg" alt="" />
+                  <a href="">Call Us</a>
+                </div>
+              </button>
+
               <img
                 class="btn-mobile-call"
                 src="images/images-mobile/call-menu-mobile.svg"
@@ -116,7 +118,79 @@
       </div>
     </header>
     <main class="main">
-      <div class="hero"></div>
+      <div class="hero">
+        <div class="description-hero">
+          <img
+            class="hero-photo-left"
+            src="images/hero-photo-2.svg"
+            alt="hero-photo-left"
+          />
+          <div class="text-hero">
+            <div class="pre-text">
+              <img class="list-logo" src="images/list.svg" alt="list" />
+              <p>Landscape Planting Services</p>
+            </div>
+            <div class="hero-caption-text">
+              Perfect Landscape <span class="green-color">Solution.</span>
+            </div>
+            <div class="hero-description-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </div>
+            <div class="buttons">
+              <button class="btn-quate"><a href="">Get A Quate</a></button>
+              <div class="see-it-works">
+                <p>See how it works</p>
+                <img
+                  class="img-right"
+                  src="images/right-grey.svg"
+                  alt="right"
+                />
+              </div>
+            </div>
+            <div class="circles">
+              <div class="circle500">
+                <img
+                  class="circle-img"
+                  src="images/circle500.svg"
+                  alt="circle500"
+                />
+                <div class="circle-text">
+                  <p>Happy</p>
+                  <p>Customrs</p>
+                </div>
+              </div>
+              <div class="circle800">
+                <img
+                  class="circle-img"
+                  src="images/circle800.svg"
+                  alt="circle800"
+                />
+                <div class="circle-text">
+                  <p>Garden</p>
+                  <p>Created</p>
+                </div>
+              </div>
+              <div class="circle100">
+                <img
+                  class="circle-img"
+                  src="images/circle100.svg"
+                  alt="circle100"
+                />
+                <div class="circle-text">
+                  <p>Team</p>
+                  <p>Members</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="hero-photo-right"
+            src="images/realphoto1.jpg"
+            alt="hero-photo-right"
+          />
+        </div>
+      </div>
     </main>
     <footer class="footer">footer</footer>
   </body>
