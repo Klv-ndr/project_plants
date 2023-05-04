@@ -11,10 +11,14 @@
     width: 1920px;
     height: 719px;
 }
-.hero-photo-right{
+.right-photo {
     align-self: flex-end;
-    width: 1013px;
-    height: 673px;
+}
+.hero-photo-right{
+    
+    width: 100%;
+    // width: 1013px;
+    // height: 673px;
 }
 .hero-photo-left {
     align-self: flex-end;

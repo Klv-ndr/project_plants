@@ -2,7 +2,8 @@
 @import "./header";
 @import "./mobile-version";
 @import "./hero";
-
+@import "./services";
+@import "./experiance";
 
 * {
     box-sizing: border-box;
@@ -17,7 +18,7 @@ body {
     flex-direction: column;
 }
 .conteiner {
-    max-width: 1410px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
