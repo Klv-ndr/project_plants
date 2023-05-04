@@ -1,4 +1,4 @@
-.hero {
+.hero-laptop {
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -133,4 +133,7 @@
 }
 .circle-img {
     margin-right: 10px;
+}
+.hero-mobile {
+    display: none;
 }
