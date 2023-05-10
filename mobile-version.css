@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   * {
     box-sizing: border-box;
   }
@@ -112,7 +112,7 @@
     margin-left: 20px;
   }
   .hero-laptop {
-    display: none;
+    display: none !important;
   }
   .description-hero {
     display: none;
@@ -122,32 +122,42 @@
   }
   .pre-text {
     display: none;
+    visibility: hidden;
   }
   .buttons {
     display: none;
+    visibility: hidden;
   }
   .btn-quate {
     display: none;
+    visibility: hidden;
   }
   .btn-quate a {
     display: none;
+    visibility: hidden;
   }
   .see-it-works {
     display: none;
+    visibility: hidden;
   }
   .circles {
     display: none;
+    visibility: hidden;
   }
   .circle500 {
     display: none;
+    visibility: hidden;
   }
   .circle800 {
     display: none;
+    visibility: hidden;
   }
   .circle100 {
     display: none;
+    visibility: hidden;
   }
   .hero-mobile {
-    display: block;
+    display: flex;
+    height: 200px;
   }
 }/*# sourceMappingURL=mobile-version.css.map */
