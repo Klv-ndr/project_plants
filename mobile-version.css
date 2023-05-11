@@ -157,7 +157,6 @@
     visibility: hidden;
   }
   .hero-mobile {
-    display: flex;
-    height: 200px;
+    display: block;
   }
 }/*# sourceMappingURL=mobile-version.css.map */

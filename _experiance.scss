@@ -98,13 +98,32 @@
     height: 50px;
     background-color: #00730C;
     border-radius: 5px;
+    line-height: 50px;
     border: none;
     font-size: 18px;
     font-weight: 700;
 }
 .a-btn-discover {
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: 190px;
+    height: 50px;
     text-decoration: none;
     color: white;
+}
+.btn-discover:hover {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: #00730C 2px solid;
+    width: 190px;
+    height: 50px;
+    background-color: white;
+    color: #00730C;
+}
+.btn-discover a:hover {
+   
+    width: 190px;
+    height: 50px;
+    text-decoration: none;
+    color: #00730C;
 }

@@ -1,0 +1,109 @@
+.slider-clients {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 585px;
+    background-color: #e1f0e5;
+}
+.title-clients {
+    display: flex;
+    flex-direction: column;
+    height: 61px;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61.38;
+}
+.title-clients-text {
+    height: 61px;
+}
+.reviews > div {
+    text-align: center;
+    padding: 150px 0;
+    top: 100px;
+    
+}
+.reviews {
+    width: 1440px;
+    height: 700px;
+}
+.man-img {
+ width: 193px;
+ height: 276px;
+}
+.sub-reviews {
+    height: 341px;
+    width: 690px;
+    background: #FFFFFF;
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    margin: 15px;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    
+}
+.description-reviews {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/Star-Icon.svg);
+    background-repeat: no-repeat;
+    background-position:right 15px bottom 80px;
+    
+
+}
+.text-reviews {
+    width: 405px;
+    height: 150px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    background-image: url(images/lapky.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+.name-reviews {
+    width: 123px;
+    height: 33px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37.24px;
+}
+.position-reviews {
+    width: 64px;
+    height: 25px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.slick-next:before {
+    content: url(images/slider-right.svg);
+}
+.slick-prev:before {
+    content: url(images/slider-left.svg);
+}
+.slick-next:hover {
+    content: url(images/Active-right.svg);
+}
+.slick-prev:before:hover {
+    content: url(images/Active-left.svg);
+}
+.slick-prev {
+    left: 1300px;
+    top: 201px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.slick-next {
+    top: 201px;
+    left: 1370px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}

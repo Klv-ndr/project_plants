@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>Active</title>
+	<defs>
+		<image  width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAAXNSR0IB2cksfwAAAHVQTFRFAAAAAHMLAHMMAHMMAHMMAHAMAHIMAHQMAHMMAHILAHQMIIQqz+XR7/bwb7B2EHwb////r9Ozn8qkMI06j8GVf7mFYKdngLmGX6dnkMKV3+7gj8KUUJ5YYKdoMI05oMukEHsb3+3hv9zCcLB2AHIMAHEMAHMMRG8faQAAACd0Uk5TAF+//+9Af39AYL//////////////////////////////////74CANAATGgAAANhJREFUeJzt1kkOwjAMBVC3KdApEIbSMk+F+x+ROGLphHxUdv3b6ElW4lgmoiRVscnSCdlMo4HLjCjHhFIFxVf1SUkZShTBYiTDkqrWc4wsamM0RFiYGiJLK3SFkBWLtXDgJRsrjCS8pGGxFY88JCA8xInWU4BIgkIkXVBI5IuQiLZi5xcS2VtywMiRC2sgok5hI15yGzTyUwaNp2Gc6SASMt7m37E5Q0Rd+ItJZtCPrK48Lm4QcQYbSnb03c0DJHJG8n/S/7KQJCjJiZ6YePFClqd9NCgLojfz/SZ5k1vLjQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

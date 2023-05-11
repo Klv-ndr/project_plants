@@ -89,6 +89,8 @@
     background-color: #00730C;
     border: none;
     border-radius: 5px;
+
+   
 }
 .btn-laptop-call a {
     display: block;
@@ -100,8 +102,21 @@
     line-height: 50px;
     margin-left: 10px;
 }
-
-
+.btn-laptop-call:hover {
+    border: #00730C 1px solid;
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: #00730C;
+   
+}
+.btn-laptop-call a:hover {
+    
+    width: 175px;
+    height: 50px;
+    text-decoration: none;
+    color: #00730C;
+}
 .btn-call-us {
     display: flex;
     align-items: center;
